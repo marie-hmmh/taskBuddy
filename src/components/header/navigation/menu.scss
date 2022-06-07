@@ -1,0 +1,29 @@
+@import '../../../styles/style.scss';
+
+ul {
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--primary-color);
+  margin: 0;
+  padding: 6rem 4rem;
+  box-sizing: border-box;
+
+  li {
+    list-style: none;
+    color: var(--tertiary-color);
+
+    a {
+      text-decoration: none;
+      line-height: 2em;
+      font-size: 2em;
+
+      &:active,
+      &:visited {
+        color: var(--tertiary-color);
+      }
+    }
+  }
+}

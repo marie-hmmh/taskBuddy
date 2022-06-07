@@ -1,0 +1,25 @@
+html {
+  font-size: 0.625em;
+}
+
+$space-rem: 1rem; // = 1rem
+
+
+$border: .3rem;
+$space-xs: .4rem;
+$space-s: .8rem;
+$space: 1.6rem;
+$space-m: 2.4rem;
+$space-lg: 3.2rem;
+$space-xl: 4.0rem;
+$space-xxl: 5.2rem;
+$space-xxl: 8.4rem;
+
+$margin: 1.5rem;
+
+$gap: .5rem;
+
+@function rem-calc($size) {
+  $rem-size: $size/10px;
+	@return $rem-size * 1rem;
+}
